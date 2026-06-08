@@ -39,7 +39,7 @@ except ImportError:
     from chromadb.config import Settings
 
 from typing import List, Dict, Any, Optional
-from services.shared.config import settings
+from shared.config import settings
 
 
 class CognitiveMemoryStore:

@@ -2,7 +2,7 @@ import time
 from fastapi import FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_LATEST
-from services.shared.config import settings
+from shared.config import settings
 
 # Initialize FastAPI instance
 app = FastAPI(

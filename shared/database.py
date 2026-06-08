@@ -1,7 +1,7 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 from sqlalchemy.orm import declarative_base, declared_attr
 from typing import AsyncGenerator
-from services.shared.config import settings
+from shared.config import settings
 
 # Create async engine for high-concurrency connections
 engine = create_async_engine(
